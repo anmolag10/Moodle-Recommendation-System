@@ -1,0 +1,20 @@
+{
+    "name": "obj ext",
+    "description": "my ext",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "./128.png"
+    },
+    "background": {
+        "scripts": ["./background.js"]
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "defualt_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://localhost/*"
+    ]
+} 
